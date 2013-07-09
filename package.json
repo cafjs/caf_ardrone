@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "author": "Antonio Lain <antlai@cafjs.com>",
   "dependencies": {       
-       "ar-drone" : ">= 0.1.0"
+       "ar-drone" : ">= 0.1.0",
+       "buffy" :">=0.0.4"
    },
   "main": "index",
   "engines": { "node": ">= 0.8.1 " }

@@ -16,6 +16,7 @@ limitations under the License.
 */
 "use strict";
 
+var PaVEParser = require('./PaVEParser')
 var net = require('net');
 
 
