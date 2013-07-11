@@ -3,9 +3,10 @@
   "description": "Cloud Assistants lib to interact with ARDrone hardware",
   "version": "0.0.1",
   "author": "Antonio Lain <antlai@cafjs.com>",
-  "dependencies": {       
-       "ar-drone" : ">= 0.1.0",
-       "buffy" :">=0.0.4"
+  "dependencies": {
+      "ar-drone" : ">= 0.1.0",
+      "buffy" :">=0.0.4",
+      "node-gpsd": ">= 0.1.4"
    },
   "main": "index",
   "engines": { "node": ">= 0.8.1 " }
