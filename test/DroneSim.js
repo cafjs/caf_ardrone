@@ -21,6 +21,8 @@ var dgram = require("dgram");
 
 var UDP_PORT = 5556;
 
+var port = process.argv[2] || UDP_PORT;
+
 var server = dgram.createSocket("udp4");
 
 server.on("message", function (msg, rinfo) {
@@ -32,4 +34,4 @@ server.on("listening", function () {
               console.log("Ready: " + address.address + ":" + address.port);
           });
 
-server.bind(UDP_PORT);
+server.bind(port);

@@ -30,7 +30,7 @@ that adds serialization and timing constraints to a bundle of commands.
     var cl = cafDr.client({ip: '127.0.0.1'}) // node running in the drone
     b1.schedule(cl); // do it now
     b1.schedule(cl, new Date().getTime()+60*60*1000); // do it again in 1 hour
-    b1.schedule(cl, new Date().getTime()+120*60*1000); // do it again in 2 hour
+    b1.schedule(cl, new Date().getTime()+120*60*1000); // do it again in 2 hours
 
     // same actions, different drone
     var cl2 = cafDr.client({ip: '192.168.1.7'}) // node running in laptop

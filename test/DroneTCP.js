@@ -19,6 +19,8 @@ var net = require('net');
 
 var TCP_PORT = 5555;
 
+var port = process.argv[2] || TCP_PORT;
+
 var server = net.createServer(function(c) {
                                   console.log('server connected');
                                   c.on('end', function() {
@@ -29,8 +31,8 @@ var server = net.createServer(function(c) {
 
                               });
 
-server.listen(TCP_PORT, function() {
-                  console.log('server bound');
+server.listen(port, function() {
+                  console.log('server bound at port ' + port);
               });
 
- 
+
