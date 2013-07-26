@@ -1,11 +1,12 @@
 {
   "name": "caf_ardrone",
   "description": "Cloud Assistants lib to interact with ARDrone hardware",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Antonio Lain <antlai@cafjs.com>",
   "dependencies": {
       "ar-drone" : ">= 0.1.0",
       "buffy" :">=0.0.4",
+      "carrier" : ">=0.1.10",
       "node-gpsd": ">= 0.1.4"
    },
   "main": "index",
